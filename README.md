@@ -1,3 +1,7 @@
 # Meus estudos
 
-Pasta dedicada para as linguagens que estou estudando
+Pasta dedicada as linguagens que estou estudando
+
+## Livro JavaScript Descomplicado
+  Cláudio Luís e Humberto Augusto
+
