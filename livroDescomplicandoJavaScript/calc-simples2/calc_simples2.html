@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples 2</title>
+</head>
+<body>
+    <h1>Calculadora Simples 2</h1>
+    Valor 1: <input type="text" id="v1" value=""><br>
+    Valor 2: <input type="text" id="v2" value=""><br><br>
+    <input type="button" value="Somar"
+        onclick="calcular('+')">
+    <input type="button" value="Subtrair"
+        onclick="calcular('-')">
+    <input type="button" value="Multiplicar"
+        onclick="calcular('*')">
+    <input type="button" value="Dividir"
+        onclick="calcular('/')"><br><br>
+    Resultado: <input type="text" id="res" value="" readonly>
+
+    <script src="app.js"></script>
+</body>
+</html>
