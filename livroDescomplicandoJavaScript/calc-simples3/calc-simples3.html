@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples 3</title>
+</head>
+<body>
+    <h1>Calculadora Simples 3</h1>
+    Valor 1: <input type="text" id="v1" value=""><br><br>
+    Valor 2: <input type="text" id="v2" value=""><br><br>
+    Operação:
+    <input type="radio" id="somar" name="op" checked> Somar
+    <input type="radio" id="subtrair" name="op" checked> Subtrair
+    <input type="radio" id="multiplicar" name="op" checked> Multiplicar 
+    <input type="radio" id="dividir" name="op" checked> Dividir <br><br>
+    <input type="button" value="Executar" onclick="calcular()"><br><br>
+    Resultado: <input type="text" id="res" value="" readonly>  
+
+    <script src="app.js"></script>
+</body>
+</html>
