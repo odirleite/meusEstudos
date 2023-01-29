@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="center">
+    <h1 class="titulo">Calculadora Simples 4</h1>
+    <span class="valor1">Valor 1: <input class="input" type="text" id="v1" value=""></span><br>
+
+    <span class="valor2">Valor 2: <input class="input" type="text" id="v2" value=""></span><br>
+
+    <span class="operacao">Operação:
+    <select class="selecao" id="op">
+        <option value="">(escolha uma opção)</option>
+        <option value="+">Somar</option>
+        <option value="-">Subtrair</option>
+        <option value="*">Multiplicar</option>
+        <option value="/">Dividir</option>
+    </select></span><br>
+
+    <input class="botao"type="button" value="Executar" onclick="calcular()"><br>
+
+   <span class="resultado">Resultado: <input class="input" type="text" id="res" value="" resdonly></span>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
