@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Dados</title>
+</head>
+<body>
+    <h1>Produto</h1>
+    <table>
+        <tr>
+            <td>Descrição:</td>
+            <td><input type="text" id="desc" value="" size="20" maxlength="20" onblur="validarDescricao()"></td>
+        </tr>
+        <tr>
+            <td>Quantidade:</td>
+            <td><input type="text" id="qtd" value="" size="3" maxlength="3" onblur="validarQuantidade()"></td>
+        </tr>
+        <tr>
+            <td>Preço Unitário:</td>
+            <td><input type="text" id="unit" value="" size="10" maxlength="10" onblur="validarPreco()"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Calcular" onclick="calcular()"></td>
+        </tr>
+        <tr>
+            <td>Preço Total:</td>
+            <td><input type="text" id="total" value="" size="10" readonly></td>
+        </tr>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
